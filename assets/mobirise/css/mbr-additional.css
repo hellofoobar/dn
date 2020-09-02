@@ -1057,6 +1057,21 @@ section.lazy-placeholder:after {
   border-radius: 8px;
   overflow: hidden;
 }
+.cid-s9eM48Pizt .card-wrapper .card-title {
+  position: relative;
+}
+.cid-s9eM48Pizt .card-wrapper .card-title:after {
+  content: "";
+  transition: all 0.3s;
+  border-bottom: 1px solid currentColor;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+}
+.cid-s9eM48Pizt .card-wrapper:hover .card-title:after {
+  width: 100%;
+}
 .cid-s9eM48Pizt .card-box {
   padding-top: 2rem;
   display: inline-block;
@@ -1071,6 +1086,9 @@ section.lazy-placeholder:after {
 }
 .cid-s9eM48Pizt .mbr-text {
   color: #31ccfe;
+}
+.cid-s9eM48Pizt .card-title {
+  color: #51aafa;
 }
 .cid-s9erKAU2JD {
   padding-top: 90px;
