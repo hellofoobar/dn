@@ -32,7 +32,24 @@
 
 <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script>
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+</script>
 
 
 </head>
@@ -41,7 +58,7 @@
 <section id='top-1'></section>
 
 
-  <section class="menu cid-repci1VYkJ" once="menu" id="menu1-3" data-sortbtn="btn-primary">
+  <section class="menu cid-repci1VYkJ" once="menu" id="menu1-3">
 
     
     
@@ -79,7 +96,7 @@
     </nav>
 </section>
 
-<section class="header4 cid-repa7rjItl mbr-fullscreen mbr-parallax-background" id="header4-0" data-sortbtn="btn-primary">
+<section class="header4 cid-repa7rjItl mbr-fullscreen mbr-parallax-background" id="header4-0">
 
     
 
@@ -92,7 +109,7 @@
                 <div class="typed-text pb-3 align-left display-1">
                     <span class="mbr-section-subtitle mbr-fonts-style display-1"><strong>Internet the way it's meant to be:</strong><br></span>
                     <span>
-                      <span class="animated-element mbr-bold" data-word1="Private" data-word2="Secure" data-word3="Fair" data-word4="Full-throughput" data-word5="Ipsum" data-speed="80" data-words="3">
+                      <span class="animated-element mbr-bold" data-word2="Secure" data-word3="Fair" data-word4="Full-throughput" data-word5="Ipsum" data-speed="80" data-words="3" data-word1="Private">
                       </span>
                     </span>
                 </div>
@@ -101,10 +118,18 @@
             </div>
             <div class="col-lg-6">
                 <div class="mbr-figure" style="animation-duration: 2s;">
-                    <img src="assets/images/02-copy-5-1080x626.png" alt="" title="">
+                    
+                    <div id="slideshow">
+                    	<div>    
+                    	<img src="assets/images/atomos.png" alt="" title="">
+                        </div>
+                        <div>
+                         <img id="background" src="assets/images/test.png" alt="" title="">
+                    	</div>
+                    </div>
                 </div>
                 <div>
-                    <p class="animated fadeIn delay-2s">DPN (Decentralized Private Network) powered by blockchain and AtomOS, the world's first lock-free network OS.</p>
+                    <p class="animated fadeIn delay-2s">DPN (Decentralized Private Network) powered by AtomOS, the world's first lock-free network OS; and e ² chain, the world's first decentralized blockchain.</p>
                 </div>
             </div>
         </div>
@@ -116,7 +141,7 @@
     </div>
 </section>
 
-<section class="video1 cid-s84fyo2O5j" id="video2-t" data-sortbtn="btn-primary">
+<section class="video1 cid-s84fyo2O5j" id="video2-t">
 
     
     <div class="container">
@@ -130,7 +155,7 @@
     </figure>
 </section>
 
-<section class="extTabs cid-rVQGBMsMJ6 mbr-parallax-background" id="extTabs1-m" data-sortbtn="btn-primary">
+<section class="extTabs cid-rVQGBMsMJ6 mbr-parallax-background" id="extTabs1-m">
 
     
 
@@ -294,7 +319,7 @@
     </div>
 </section>
 
-<section class="features15 cid-s84a8dqtFb" id="features15-s" data-sortbtn="btn-primary">
+<section class="features15 cid-s84a8dqtFb" id="features15-s">
 
     
 
@@ -339,7 +364,7 @@
     </div> 
 </section>
 
-<section class="extShop featuresLink cid-s9eM48Pizt" id="extShop2-1d" data-sortbtn="btn-primary">
+<section class="extShop featuresLink cid-s9eM48Pizt" id="extShop2-1d">
 
     
 
@@ -395,7 +420,7 @@
     </div>
 </section>
 
-<section class="extShop featuresLink cid-s9v6sOROad" id="extShop2-2d" data-sortbtn="btn-primary">
+<section class="extShop featuresLink cid-s9v6sOROad" id="extShop2-2d">
 
     
 
@@ -451,7 +476,7 @@
     </div>
 </section>
 
-<section class="features3 cid-s9erKAU2JD" id="clients2-14" data-sortbtn="btn-primary">
+<section class="features3 cid-s9erKAU2JD" id="clients2-14">
 
      
 
@@ -552,7 +577,7 @@
     </div>
 </section>
 
-<section class="extTabs cid-s84n1BphGv" id="extTabs4-v" data-sortbtn="btn-primary">
+<section class="extTabs cid-s84n1BphGv" id="extTabs4-v">
 
     
 
@@ -608,7 +633,7 @@
     </div>
 </section>
 
-<section class="accordion1 cid-s9pkAbyAt2" id="accordion1-1w" data-sortbtn="btn-primary">
+<section class="accordion1 cid-s9pkAbyAt2" id="accordion1-1w">
 
     
 
@@ -714,7 +739,7 @@
     </div>         
 </section>
 
-<section class="accordion1 cid-s9pkB9rJH6" id="accordion1-1x" data-sortbtn="btn-primary">
+<section class="accordion1 cid-s9pkB9rJH6" id="accordion1-1x">
 
     
 
@@ -819,7 +844,7 @@
     </div>         
 </section>
 
-<section class="accordion1 cid-s9pkCffIr4" id="accordion1-1y" data-sortbtn="btn-primary">
+<section class="accordion1 cid-s9pkCffIr4" id="accordion1-1y">
 
     
 
@@ -873,7 +898,7 @@
     </div>         
 </section>
 
-<section style="background: linear-gradient(#3b7cb7,#111111);!important" class="extMap cid-s9eixUKh4w" id="extMap4-x" data-sortbtn="btn-primary">
+<section style="background: linear-gradient(#3b7cb7,#111111);!important" class="extMap cid-s9eixUKh4w" id="extMap4-x">
 
     
 
@@ -881,7 +906,7 @@
     <div class="container-fluid">
         <div class="row main">
             <div class="col-md-6 map">
-              <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCy9r70T3NYf3PhvVflTo0_zdif2_IoIYs&amp;q=place_id:ChIJk1ebAs3Jj4ARrGeFn_ih42U" allowfullscreen=""></iframe></div>
+              <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAEIpgj38KyLFELm2bK9Y7krBkz1K-cMq8&amp;q=place_id:ChIJk1ebAs3Jj4ARrGeFn_ih42U" allowfullscreen=""></iframe></div>
             </div>
             <div class="col-md-6 text-element">
                 <div class="text-content">
@@ -938,7 +963,7 @@
     </div>
 </section>
 
-<section class="cid-s9el9WCMXQ" id="footer4-11" data-sortbtn="btn-primary">
+<section class="cid-s9el9WCMXQ" id="footer4-11">
 
     
 
