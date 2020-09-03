@@ -39,17 +39,22 @@
 
 
 <script>
-$("#slideshow > div:gt(0)").hide();
 
+
+    $("#slideshow > div:gt(0)").hide();
+  
 setInterval(function() { 
   $('#slideshow > div:first')
-    .fadeOut(0)
+    .fadeOut(1000)
     .next()
-    .fadeIn(0)
+    .fadeIn(1000)
     .end()
     .appendTo('#slideshow');
 },  3000);
+
+
 </script>
+
 
 
 </head>
@@ -118,17 +123,17 @@ setInterval(function() {
             </div>
             <div class="col-lg-6">
                 <div class="mbr-figure" style="animation-duration: 2s;">
-                    
                     <div id="slideshow">
+                    
                     	<div>    
                     	<img src="assets/images/02-copy-6-1080x626.png" alt="" title="">
                         </div>
                         <div>
-                         <img id="background" src="assets/images/02-copy-2-1080x626.png" alt="" title="">
+                         <img id="background" style="" src="assets/images/02-copy-2-1080x626.png" alt="" title="">
                     	</div>
                     </div>
                 </div>
-                <div>
+				<div>
                     <p class="animated fadeIn delay-2s">DPN (Decentralized Private Network) powered by AtomOS, the world's first lock-free network OS; and e ² chain, the world's first decentralized blockchain.</p>
                 </div>
             </div>
@@ -906,7 +911,7 @@ setInterval(function() {
     <div class="container-fluid">
         <div class="row main">
             <div class="col-md-6 map">
-              <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCy9r70T3NYf3PhvVflTo0_zdif2_IoIYs&amp;q=place_id:ChIJk1ebAs3Jj4ARrGeFn_ih42U" allowfullscreen=""></iframe></div>
+              <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAEIpgj38KyLFELm2bK9Y7krBkz1K-cMq8&amp;q=place_id:ChIJk1ebAs3Jj4ARrGeFn_ih42U" allowfullscreen=""></iframe></div>
             </div>
             <div class="col-md-6 text-element">
                 <div class="text-content">

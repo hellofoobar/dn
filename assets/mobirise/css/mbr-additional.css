@@ -686,6 +686,22 @@ section.lazy-placeholder:after {
   background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
   background-image: url("../../../assets/images/mbr-1920x1080.jpg");
 }
+.cid-repa7rjItl #slideshow {
+  margin: 20% auto;
+  padding: 10.5%;
+}
+.cid-repa7rjItl #slideshow > div {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  right: 1%;
+  bottom: 1%;
+}
+@media only screen and (max-width: 991px) and (orientation: portrait) {
+  .cid-repa7rjItl #slideshow > div {
+    top: 7%;
+  }
+}
 .cid-repa7rjItl .mbri-down {
   font-size: 16px !important;
   color: white;
