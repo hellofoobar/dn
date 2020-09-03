@@ -1003,15 +1003,9 @@ section.lazy-placeholder:after {
   color: #333333;
 }
 .cid-s9eM48Pizt {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #efefef;
-}
-@media (max-width: 767px) {
-  .cid-s9eM48Pizt .container-fluid {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
 }
 .cid-s9eM48Pizt h4,
 .cid-s9eM48Pizt h5,
@@ -1088,6 +1082,88 @@ section.lazy-placeholder:after {
   color: #31ccfe;
 }
 .cid-s9eM48Pizt .card-title {
+  color: #51aafa;
+}
+.cid-s9v6sOROad {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
+.cid-s9v6sOROad h4,
+.cid-s9v6sOROad h5,
+.cid-s9v6sOROad p {
+  margin-bottom: 0;
+}
+.cid-s9v6sOROad p {
+  color: #767676;
+}
+.cid-s9v6sOROad .card-wrapper {
+  transition: all 0.3s;
+  background-color: #ffffff;
+}
+.cid-s9v6sOROad .card-wrapper .card-box {
+  padding: 1.2rem;
+}
+.cid-s9v6sOROad .card-wrapper:hover {
+  box-shadow: 0 10px 55px 5px rgba(131, 194, 251, 0.35);
+}
+@media (min-width: 992px) {
+  .cid-s9v6sOROad .card-box {
+    position: relative;
+  }
+  .cid-s9v6sOROad .mbr-text {
+    width: 100%;
+    position: absolute;
+    padding: 1.2rem 1.2rem 0;
+    margin-bottom: -1.2rem;
+    background-color: #ffffff;
+    opacity: 0;
+    transition: all 0.3s;
+    bottom: 100%;
+    transform: translateY(100%);
+    left: 0;
+  }
+  .cid-s9v6sOROad .card-wrapper:hover .mbr-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cid-s9v6sOROad .card-wrapper {
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.cid-s9v6sOROad .card-wrapper .card-title {
+  position: relative;
+}
+.cid-s9v6sOROad .card-wrapper .card-title:after {
+  content: "";
+  transition: all 0.3s;
+  border-bottom: 1px solid currentColor;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+}
+.cid-s9v6sOROad .card-wrapper:hover .card-title:after {
+  width: 100%;
+}
+.cid-s9v6sOROad .card-box {
+  padding-top: 2rem;
+  display: inline-block;
+  width: 100%;
+}
+.cid-s9v6sOROad .card-title,
+.cid-s9v6sOROad .main-title {
+  color: #149dcc;
+}
+.cid-s9v6sOROad .card-link {
+  color: #51aafa;
+}
+.cid-s9v6sOROad .mbr-text {
+  color: #31ccfe;
+}
+.cid-s9v6sOROad .card-title {
   color: #51aafa;
 }
 .cid-s9erKAU2JD {
