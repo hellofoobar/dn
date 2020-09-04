@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DEEPER",
-    "currentPage": "news.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "businessm4",
       "title": "Business M4",
@@ -63,7 +63,7 @@
       "textButton": "Agree"
     },
     "siteUrl": "undefined",
-    "uniqCompNum": 137,
+    "uniqCompNum": 141,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "witsec-white-label": "on",
@@ -2285,7 +2285,7 @@
     "news.html": {
       "settings": {
         "title": "DEEPER Network - Latest News",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
