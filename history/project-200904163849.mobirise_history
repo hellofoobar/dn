@@ -80,7 +80,9 @@
     "PWA": {
       "enabled": false
     },
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "file:///Users/mlgb/Desktop/deeper-web-new"
   },
   "pages": {
     "index.html": {
