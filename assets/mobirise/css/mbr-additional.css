@@ -1043,38 +1043,6 @@ section.lazy-placeholder:after {
   background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
   background-image: url("../../../assets/images/mbr-1920x1080.jpg");
 }
-.cid-repa7rjItl .typewriter p {
-  font-weight: 800;
-  width: auto;
-  display: inline-block;
-  overflow: hidden;
-  border-right: .15em solid orange;
-  line-height: 100%;
-  white-space: nowrap;
-  margin: 3% auto 3%;
-  letter-spacing: .075em;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-  font-size: 72%;
-  text-align: left;
-  color: #31ccfe;
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: white;
-  }
-}
 .cid-repa7rjItl #slideshow {
   margin: 20% auto;
   padding: 10.5%;

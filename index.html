@@ -33,6 +33,48 @@
 <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
 
+<style>
+  #typewriter p {
+  font-weight: 800;
+  width: auto;
+  display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  line-height: 100%;
+  white-space: nowrap;
+  margin: 3% auto 3%;
+  letter-spacing: .075em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  font-size: 72%;
+  text-align: left;
+  color: #31ccfe;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+@media (max-width: 991px) {
+  #small {
+    img {
+      height: 2.8rem !important;
+    }
+  }
+}
+
+</style>
 
 
 
@@ -117,7 +159,7 @@ setInterval(function() {
             <div class="mbr-white col-md-12 col-lg-6" style="padding-top: 10px">
                 <div class="typed-text pb-3 align-left display-1">
                     <span class="mbr-section-subtitle mbr-fonts-style display-1"><strong>Internet the way it's meant to be:</strong><br></span>
-                    <div class="typewriter">
+                    <div id="typewriter">
   <p>Private, Secure, and Fair.</p>
 </div>
                     
